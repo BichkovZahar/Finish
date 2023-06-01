@@ -1,8 +1,8 @@
-def python(strings):
-    item = [s for s in strings if "Python" in s]
-    return item
-dict = []
+def ex_8(lst):
+    rezult = [s for s in lst if s[0].upper()]
+    return rezult
+user = []
 lst = input("Введіть рядок: ")
-dict.append(lst)
-finish = python(dict)
-print(finish)
+user.append(lst)
+print(ex_8(user))
+
