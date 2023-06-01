@@ -1,6 +1,6 @@
-def ex_6(dict):
-    for i in dict:
-        if i % 2 == 0:
-            print(i)
-number = [i for i in range(1 , 10 +1)]
-ex_6(number)
+dict = {}
+for i in range(3):
+    student = input(f"Введіть імя: ")
+    grade = input(f"Введіть оцінку: ")
+    dict[student] = grade
+print(dict)
