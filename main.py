@@ -1,6 +1,5 @@
-a = int(input("Введіть початок діапазону: "))
-b = int(input("Введіть кінець діапазону: "))
 count = 0
-for i in range(a , b):
-    count += i
+for i in range(1 , 100):
+    if i % 2 == 0:
+        count += i
 print(count)
